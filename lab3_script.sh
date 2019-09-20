@@ -8,4 +8,4 @@ echo "Enter a file name"
 read fileName
 echo "Enter an expression"
 read exp
-grep  $exp $fileName >> result.txt
+grep  $exp $fileName >> email_results.txt
